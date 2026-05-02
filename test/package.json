@@ -1,0 +1,25 @@
+{
+  "name": "backend-golang-api-tests",
+  "version": "1.0.0",
+  "description": "API Integration Tests untuk Backend Golang menggunakan Jest & Axios",
+  "scripts": {
+    "test": "jest --runInBand --verbose",
+    "test:auth": "jest --runInBand --verbose auth",
+    "test:category": "jest --runInBand --verbose category",
+    "test:product": "jest --runInBand --verbose product",
+    "test:address": "jest --runInBand --verbose address",
+    "test:transaction": "jest --runInBand --verbose transaction"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 15000,
+    "testMatch": ["**/__tests__/**/*.test.js"]
+  }
+}
