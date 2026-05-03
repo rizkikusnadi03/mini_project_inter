@@ -40,7 +40,7 @@ Pastikan Anda sudah menginstal beberapa software berikut di komputer Anda:
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_USER=root
-DB_PASSWORD=mypassword
+DB_PASSWORD=()
 DB_NAME=notion_db
 JWT_SECRET=evermos_secret_key
 PORT=8000
